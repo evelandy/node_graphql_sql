@@ -1,0 +1,54 @@
+{
+  "$schema": "https://cdn.statically.io/gh/nguyenngoclongdev/cdn/main/schema/v7/terminal-keeper.json",
+  "theme": "tribe",
+  "active": "setup-1",
+  "activateOnStartup": true,
+  "keepExistingTerminals": false,
+  "sessions": {
+    "default": [
+      {
+        "name": "example|single",
+        "commands": [
+          ""
+        ],
+        "autoExecuteCommands?": "boolean",
+        "cwd?": "string",
+        "color?": "string",
+        "icon?": "string",
+        "env?": "object",
+        "hideFromUser?": "boolean",
+        "isTransient?": "boolean",
+        "message?": "string",
+        "shellArgs?": "Array<string>",
+        "shellPath?": "string",
+        "strictEnv?": "boolean"
+      }
+    ],
+    "setup-1": [
+      {
+        "name": "RUN",
+        "commands": [
+          ""
+        ],
+        "color": "terminal.ansiBrightYellow",
+        "icon": "run-all"
+      },
+      {
+        "name": "GIT",
+        "commands": [
+          ""
+        ],
+        "color": "terminal.ansiBrightRed",
+        "icon": "git-branch"
+      },
+      {
+        "name": "ADD",
+        "commands": [
+          ""
+        ],
+        "color": "terminal.ansiGreen",
+        "icon": "add"
+      }
+    ]
+  }
+}
